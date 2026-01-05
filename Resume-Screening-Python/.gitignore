@@ -1,0 +1,12 @@
+# Ignore local environment files and secrets
+.env
+.env.*
+*.env
+secrets.json
+
+# Hugging Face token files
+hf_token.txt
+
+# Python cache
+__pycache__/
+*.pyc
